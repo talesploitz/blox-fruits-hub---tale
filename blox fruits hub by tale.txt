@@ -1,0 +1,192 @@
+getgenv().SecureMode = true
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+
+--key is Tale, always Tale
+
+local Window = Rayfield:CreateWindow({
+   Name = "Main",
+   LoadingTitle = "main",
+   LoadingSubtitle = "by tale",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Blox fruits hub"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "key = Tale",
+      Subtitle = "Key = Tale",
+      Note = "key = Tale",
+      FileName = "tale key",
+      SaveKey = true,
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = "Tale"
+   }
+})
+
+Rayfield:Notify("sup",10010348543) -- (t,c image)
+
+--Any further keys for scripts I am not responsible for
+
+local Tab = Window:CreateTab("Main", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Main")
+
+
+local Button = Tab:CreateButton({
+   Name = "Thunder Z",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "Uranium GUI",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Atomic GUI",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ArceusXHub/atomic-hub/main/atomic-hub.lua"))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "Void GUI",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/VoidHub/main/Script"))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "CFrame3310 GUI",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/CFrame3310/CFrameHub/main/BloxFruitV2.lua"))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "Zaque GUI",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Mei2232/ZaqueHub/main/Zaque%20Hub"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "BEO GUI",
+   Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/Bestxemchua/agagagaq/main/BeoHUB/BeoHUB.lua'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Winnable GUI",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/xlostpexz/tyuiop/Fps/Loading.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Zen GUI",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "Coco GUI",
+   Callback = function()
+      loadstring(game:HttpGet("https://codeberg.org/CokkaHub/Loadstring/raw/branch/main/CokkaHub.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "BTM GUI",
+   Callback = function()
+      loadstring(game:HttpGetAsync("https://gitlab.com/Sky2836/test/-/raw/main/Auth"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Turbo GUI",
+   Callback = function()
+      loadstring(Game:HttpGet"https://gitlab.com/turbohubz/loader.xyz/loader/-/raw/main/TurboHub-Loader")()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Zee GUI",
+   Callback = function()
+      loadstring(game:HttpGet("https://zKuzy.link/ZeeHub.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Destiny GUI",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/KudoCon/DestinyHub/main/DestinyKey"))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "Makima GUI",
+   Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/Piwwy0909/MakimaRemake/main/Cumback.Makima'))()
+   end,
+})
+
+
+
+local Tab = Window:CreateTab("Misc", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Misc")
+
+local Button = Tab:CreateButton({
+   Name = "InfiniteYield",
+   Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "DomainX Smartest GUI",
+   Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Reviz Admin",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/KNUzQPYS"))()
+   end,
+})
+
+
+
+
+
+--ANY KEYS PAST MINE IM NOT RESPONSIBLE FOR
+
+
+
+
+
+
+
+
+
+
+Rayfield:LoadConfiguration()
